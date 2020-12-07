@@ -37,7 +37,7 @@ See [biscuits contract verification tests](https://github.com/csbiggar/biscuits-
 
 ### 5. Explore the broker to visualise the results
 
-Go to http://localhost/2020
+Go to http://localhost:2020
 
 
 
