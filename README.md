@@ -4,15 +4,18 @@ https://docs.pact.io/
 
 Demonstrate a provider, consumer and provider verifications set up using a local pact broker to explore how it hangs together
 
-Application code: Kotlin
-Test framework: Junit5
+    Provider application language:  Kotlin
+    Consumer application language:  Kotlin
+    Test framework:                 Junit5
 
+### What's the concept?
 The [shop](https://github.com/csbiggar/shop) service (the _consumer_) exposes an inventory api showing the quantity of all biscuit types stocked by the shop. 
 
 It only holds the id of biscuits, so calls the [biscuits](https://github.com/csbiggar/biscuits) service (the _provider_) to find the biscuit name.
 
 The shop service includes a consumer side contract test which, when pushed to the pact broker, will be verified by the [biscuits contract verification tests](https://github.com/csbiggar/biscuits-contract-verifications)
 
+## Steps
 
 ### 1. Set up a local pact broker
 
