@@ -8,6 +8,12 @@ Demonstrate a provider, consumer and provider verifications set up using a local
     Consumer application language:  Kotlin
     Test framework:                 Junit5
 
+## Prereqs
+* git
+* JVM 11+
+* an IDE (recommend IntelliJ IDEA)
+* docker
+
 ### What's the concept?
 The [shop](https://github.com/csbiggar/shop) service (the _consumer_) exposes an inventory api showing the quantity of all biscuit types stocked by the shop. 
 
